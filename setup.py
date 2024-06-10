@@ -6,26 +6,22 @@ long_description = (this_directory / "README.md").read_text()
 
 VERSION = '0.0.1'
 DESCRIPTION = 'The Printer package provides a simple way to print messages with ANSI colors and styles in Python.'
-PACKAGE_NAME= 'printstyler'
+PACKAGE_NAME = 'printstyler'
 AUTHOR = 'Jean Olmedillo'
-EMAIL= 'jeanolmedillo@outlook.com'
+EMAIL = 'jeanolmedillo@outlook.com'
 GITHUB_URL = 'https://github.com/Jmofuture/printer'
 
 setup(
     name='printstyler',
-<<<<<<< HEAD
-    version='0.1.1',
-=======
-    version='0.1.0',
->>>>>>> 14c2b77bdc46ea88b78a6ac4c112910d3c6af035
+    version='0.2.1', 
     packages=[PACKAGE_NAME],
     description=DESCRIPTION,
-    long_description=open('README.md').read(),
+    long_description=long_description,
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=EMAIL,
     url=GITHUB_URL,
-    keywords = [
+    keywords=[
         'print', 'printer', 'printstyler',
     ],
     classifiers=[
