@@ -57,4 +57,4 @@ pr.debug("This is a debug message", style="hidden")
 pr.custom("This is a custom message", color="white", style="bold", prefix="Custom:")
 
 
-![example](image.png)
+![image](https://github.com/Jmofuture/printstyler/assets/78714438/a561d6a8-4f49-49a3-bdb7-24ce3d1da2dc)
