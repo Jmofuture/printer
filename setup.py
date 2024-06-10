@@ -1,16 +1,29 @@
+from pathlib import Path
 from setuptools import setup
-from setuptools import find_packages
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
+VERSION = '0.0.1'
+DESCRIPTION = 'The Printer package provides a simple way to print messages with ANSI colors and styles in Python.'
+PACKAGE_NAME= 'printer'
+AUTHOR = 'Jean Olmedillo'
+EMAIL= 'jeanolmedillo@outlook.com'
+GITHUB_URL = 'https://github.com/Jmofuture/printer'
 
 setup(
     name='print_color',
     version='0.1.0',
-    packages=find_packages(include=['app', 'app.*']),
-    description='A package to print colored messages in Python with ANSI codes.',
+    packages=[PACKAGE_NAME],
+    description=DESCRIPTION,
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='Jean Olmedillo',
-    author_email='info@jeanolmedillo.com',
-    url='https://github.com/Jmofuture/printer',
+    author=AUTHOR,
+    author_email=EMAIL,
+    url=GITHUB_URL,
+    keywords = [
+        'print', 'printer',
+    ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
