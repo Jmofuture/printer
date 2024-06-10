@@ -1,3 +1,3 @@
-from printer import Printer as p
+from printstyler import Printer as p
 
 
