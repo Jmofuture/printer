@@ -7,7 +7,7 @@ The `Printer` package provides a simple way to print messages with ANSI colors a
 You can install the package using pip:
 
 ```bash
-pip install printer
+pip install printstyler
 
 
 

@@ -13,7 +13,11 @@ GITHUB_URL = 'https://github.com/Jmofuture/printer'
 
 setup(
     name='printstyler',
+<<<<<<< HEAD
     version='0.1.1',
+=======
+    version='0.1.0',
+>>>>>>> 14c2b77bdc46ea88b78a6ac4c112910d3c6af035
     packages=[PACKAGE_NAME],
     description=DESCRIPTION,
     long_description=open('README.md').read(),
