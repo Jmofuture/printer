@@ -9,7 +9,7 @@ DESCRIPTION = 'The Printer package provides a simple way to print messages with 
 PACKAGE_NAME = 'printstyler'
 AUTHOR = 'Jean Olmedillo'
 EMAIL = 'jeanolmedillo@outlook.com'
-GITHUB_URL = 'https://github.com/Jmofuture/printer'
+GITHUB_URL = 'https://github.com/Jmofuture/printstyler'
 
 setup(
     name='printstyler',
