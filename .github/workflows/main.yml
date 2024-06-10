@@ -30,6 +30,6 @@ jobs:
       - name: Publish to PyPI
         env:
           TWINE_USERNAME: __Jmofuture_pypi__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_PASSWORD: ${{ secrets.JMOFUTURE_PYPI }}
         run: |
           python -m twine upload dist/*
