@@ -13,7 +13,7 @@ GITHUB_URL = 'https://github.com/Jmofuture/printstyler'
 
 setup(
     name='printstyler',
-    version='0.2.1', 
+    version='0.2.2', 
     packages=[PACKAGE_NAME],
     description=DESCRIPTION,
     long_description=long_description,
