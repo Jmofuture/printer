@@ -209,9 +209,8 @@ class Printer:
                 if prefix:
                     message = f"{prefix} {message}"
                 print(f"{style_code}{color_code}{message}{Printer.COLORS['reset']}", sep=sep, end=end, file=file, flush=flush)
-                # Depuración adicional
-                print(f"Debug: {style_code}{color_code}{message}{Printer.COLORS['reset']}")
         except ValueError as e:
             Printer.warning(f"Error: {e}")
+
 
 
